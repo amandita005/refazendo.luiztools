@@ -46,6 +46,18 @@
 }
 
 
+.navbar-nav .nav-item .nav-link{
+    color: rgb(0, 0, 0);
+}
+
+
+.navbar-nav .nav-item  .nav-link:hover {
+    color: #F29459;
+    text-decoration: underline;
+}
+
+
+
 .circle{
     display: flex;
    width: 80px;
@@ -55,6 +67,11 @@
        border-radius: 100px;
         background-color:#2B2B2B;
       justify-content: center;
+}
+
+.alinhar{
+    padding: 0 4%;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -67,11 +84,6 @@
     }
 
     
-    .alinhar{
-         padding: 0 4%;
-         margin: 0 auto;
-    }
-
     .img{
         width: 50%;
         text-align: center;
